@@ -20,6 +20,7 @@ public class BaseTest {
     @BeforeSuite
     public void beforeSuite(){
         System.out.println("BeforeSuite");
+       System.out.println("Added");
     }
     @Parameters("browser")
     @BeforeTest(groups = "smoke")
