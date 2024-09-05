@@ -4,7 +4,7 @@
     <test verbose="2" preserve-order="true" name="Execution">
         <classes>
 <!--            <class name="com.TYSS.Selenium.Practice.ReadingTheDataFromExcel"></class>-->
-            <class name="com.TYSS.Selenium.Practice.Framework"></class>
+            <class name="com.TYSS.Selenium.Practice.FrameworkTest"></class>
         </classes>
     </test>
 </suite>
