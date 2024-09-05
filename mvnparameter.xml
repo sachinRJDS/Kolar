@@ -4,7 +4,7 @@
     <test verbose="2" preserve-order="true" name="Execution">
         <parameter name="browser" value="chrome"></parameter>
         <classes>
-            <class name="com.TYSS.Selenium.Practice.MVN_Parameter"></class>
+            <class name="com.TYSS.Selenium.Practice.MVN_ParameterTest"></class>
 <!--            <class name="com.TYSS.Selenium.Practice.Frames"></class>-->
         </classes>
     </test>

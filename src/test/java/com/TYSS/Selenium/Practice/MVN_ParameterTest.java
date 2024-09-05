@@ -7,11 +7,10 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
-public class MVN_Parameter {
+public class MVN_ParameterTest {
 
     @Test
     public void MVN_Parameter() throws InterruptedException, IOException {
