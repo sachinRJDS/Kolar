@@ -43,5 +43,7 @@ public class Framework  {
         String actual=driver.findElement(By.xpath("//p[@class='ajax-cart__title']/a")).getText();
 
         Assert.assertEquals(actual,expect,"Product not has been Added into a cart");
+
+        driver.quit();
     }
 }

@@ -3,16 +3,8 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="Execution">
         <classes>
-            <class name="com.TYSS.Selenium.Practice.ReadingTheDataFromExcel"></class>
-            <class name="com.TYSS.Selenium.Practice.Frames"></class>
-        </classes>
-    </test>
-
-
-    <test verbose="2" preserve-order="true" name="Execution2">
-        <classes>
-            <class name="com.TYSS.Selenium.Practice.ReadingTheDataFromExcel"></class>
-            <class name="com.TYSS.Selenium.Practice.Frames"></class>
+<!--            <class name="com.TYSS.Selenium.Practice.ReadingTheDataFromExcel"></class>-->
+            <class name="com.TYSS.Selenium.Practice.Framework"></class>
         </classes>
     </test>
 </suite>
