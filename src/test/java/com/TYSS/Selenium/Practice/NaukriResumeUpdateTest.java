@@ -58,5 +58,7 @@ public class NaukriResumeUpdateTest {
 
         driver.close();
 
+        System.out.println("Resume has been Uploaded Successfully in Naukri.com");
+
     }
 }
