@@ -28,6 +28,7 @@ public class BrokenLinks {
         List<WebElement> list = driver.findElements(By.xpath("//a"));
         ArrayList ele=new ArrayList();
         for(WebElement element : list) {
+
             String actualLink=element.getAttribute("href");
             URL url=new URL(actualLink);
             URLConnection conn = url.openConnection();
